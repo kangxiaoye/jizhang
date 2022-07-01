@@ -1,5 +1,9 @@
 <template>
-    <div>Money.vue</div>
+    <div>
+        Money.vue
+        <Nav></Nav>
+    </div>
+
 </template>
 
 <script lang="ts">

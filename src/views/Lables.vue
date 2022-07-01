@@ -1,5 +1,9 @@
 <template>
-    <div>Lables.vue</div>
+    <div>
+        Lables.vue
+        <Nav></Nav>
+    </div>
+
 </template>
 
 <script lang="ts">

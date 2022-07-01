@@ -21,7 +21,7 @@ const routes: Array<RouteConfig> = [
     component: Lables
   },
   {
-    path: 'statistics',
+    path: '/statistics',
     component: Statistics
   }
 ]
