@@ -1,33 +1,37 @@
-import Vue from 'vue'
-import VueRouter, { RouteConfig } from 'vue-router'
-import Home from '../views/Home.vue'
-import Money from "@/views/Money.vue";
-import Lables from "@/views/Lables.vue";
-import Statistics from "@/views/Statistics.vue";
+import Vue from 'vue';
+import VueRouter, {RouteConfig} from 'vue-router';
+import Money from '@/views/Money.vue';
+import Lables from '@/views/Lables.vue';
+import Statistics from '@/views/Statistics.vue';
+import Notfound from '@/views/Notfound.vue';
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
 const routes: Array<RouteConfig> = [
-  {
-    path: '/',
-    redirect: '/money'
-  },
-  {
-    path: '/money',
-    component: Money
-  },
-  {
-    path: '/lables',
-    component: Lables
-  },
-  {
-    path: '/statistics',
-    component: Statistics
-  }
-]
+    {
+        path: '/',
+        redirect: '/money'
+    },
+    {
+        path: '/money',
+        component: Money
+    },
+    {
+        path: '/lables',
+        component: Lables
+    },
+    {
+        path: '/statistics',
+        component: Statistics
+    },
+    {
+        path: '*',
+        component: Notfound
+    }
+];
 
 const router = new VueRouter({
-  routes
-})
+    routes
+});
 
-export default router
+export default router;
