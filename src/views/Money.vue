@@ -1,61 +1,7 @@
 <template>
-    <div class="nav-wrapper">
-        <div class="content">
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-            <p> Money.vue</p>
-        </div>
-        <Nav/>
-    </div>
-
+      <Layout>
+          <p>money.vue</p>
+      </Layout>
 </template>
 
 <script lang="ts">
